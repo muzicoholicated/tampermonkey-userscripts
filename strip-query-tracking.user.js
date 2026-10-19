@@ -1,12 +1,14 @@
 
 // ==UserScript==
 // @name         Strip Tracking Query Params
-// @namespace    pk.tampermonkey.cleaner
-// @version      1.0
+// @namespace    https://github.com/muzicoholicated/tampermonkey-userscripts
+// @version      1.0.1
 // @description  Removes tracking query string variables from URLs using the URL object
 // @match        *://*/*
 // @run-at       document-start
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/muzicoholicated/tampermonkey-userscripts/main/strip-query-tracking.user.js
+// @updateURL    https://raw.githubusercontent.com/muzicoholicated/tampermonkey-userscripts/main/strip-query-tracking.user.js
 // ==/UserScript==
 
 (function () {
